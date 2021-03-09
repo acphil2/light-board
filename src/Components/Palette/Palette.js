@@ -3,7 +3,7 @@ import './Palette.css';
 
 const Palette = (props) => {
     return (
-        <div className='palette'>
+        <div className='palette' {...props}>
         	{props.children}
         </div>
     );

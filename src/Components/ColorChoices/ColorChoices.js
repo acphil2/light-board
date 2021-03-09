@@ -3,7 +3,7 @@ import './ColorChoices.css';
 
 const ColorChoices = (props) => {
 	return (
-	    <div className='color-choice' style={props.style}>
+	    <div className='color-choice' style={props.style} {...props}>
 	   	</div>
   	);
 };

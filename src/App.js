@@ -10,8 +10,18 @@ import './App.css';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      lightbulbColor: 'lightbulbRed',
+    }
   }
+
+  chooseColor = () => {
+    this.setState({
+      lightbulbColor: 'lightbulbPink'
+    });
+    console.log(this.state.lightbulbColor);
+  }
+
   render(){
     return(
       <div className="App">
@@ -22,7 +32,9 @@ class App extends React.Component {
           })}
         </Grid>
         <Palette>
-          <ColorChoices style={{backgroundColor: '#e65353', boxShadow: '4px 2px 1px #B84242'}}/>
+          <ColorChoices style={{backgroundColor: '#e65353', boxShadow: '4px 2px 1px #B84242'}}
+            onClick={this.chooseColor.bind(this)}
+          />
           <ColorChoices style={{backgroundColor: '#f2914b', boxShadow: '4px 2px 1px #C2743C'}}/>
           <ColorChoices style={{backgroundColor: '#ffcb3b', boxShadow: '4px 2px 1px #CCA22F'}}/>
           <ColorChoices style={{backgroundColor: '#75AA67', boxShadow: '4px 2px 1px #567d4c'}}/>

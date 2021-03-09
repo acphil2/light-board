@@ -11,7 +11,7 @@ class Lightbulb extends Component{
 
     lightSwitch(){
         let condition = this.state.isClicked;
-        this.setState({isClicked: !condition})
+        this.setState({isClicked: !condition});
     }
   
 	render(){
