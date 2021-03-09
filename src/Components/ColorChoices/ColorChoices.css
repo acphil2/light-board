@@ -1,0 +1,74 @@
+
+.color-choice {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 4px;
+}
+
+.color-choice:hover {
+    opacity: 70%;
+}
+
+.red {
+    background-color: #e65353;
+    box-shadow: 4px 2px 1px #B84242;
+}
+
+.orange {
+    background-color: #f2914b;
+    box-shadow: 4px 2px 1px #C2743C;
+}
+
+.yellow {
+    background-color: #ffcb3b;
+    box-shadow: 4px 2px 1px #CCA22F;
+}
+
+.green {
+    background-color: #75AA67;
+    box-shadow: 4px 2px 1px #567d4c;
+}
+
+.blue {
+    background-color: #80d3d6;
+    box-shadow: 4px 2px 1px #689bab;
+}
+
+.indigo {
+    background-color: #598bc9;
+    box-shadow: 4px 2px 1px #3b5f8a;
+}
+
+.violet {
+    background-color: #816799;
+    box-shadow: 4px 2px 1px #5d4573;
+}
+
+.pink {
+    background-color: #e37d9b;
+    box-shadow: 4px 2px 1px #b36079;
+}
+
+@media (max-width: 780px) {
+    .color-choice {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 490px) {
+    .color-choice {
+        width: 30px;
+        height: 30px;
+        margin: 1px;
+    }
+}
+
+@media (max-width: 400px) {
+    .color-choice {
+       width: 24px;
+       height: 24px;
+    }
+}

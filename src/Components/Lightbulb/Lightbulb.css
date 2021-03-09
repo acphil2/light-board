@@ -1,0 +1,71 @@
+.lightbulb {
+	width: 30px;
+	height: 30px;	
+	border-radius: 50%;
+	box-shadow: 2px 1px 1px black;
+	border: 1px solid #1c1c1c;
+	margin: 0;
+}
+
+.lightbulbDefault {
+	background: rgb(48,48,48);
+	background: radial-gradient(circle, rgba(48,48,48,1) 0%, rgba(36,36,36,1) 100%);
+}
+
+.lightbulbRed {
+	background: rgb(255,178,178);
+	background: radial-gradient(circle, rgba(255,178,178,1) 0%, rgba(221,61,61,1) 100%);
+}
+
+.lightbulbOrange {
+	background: rgb(255,192,147);
+	background: radial-gradient(circle, rgba(255,192,147,1) 0%, rgba(244,132,52,1) 100%);
+}
+
+.lightbulbYellow {
+	background: rgb(254,232,172);
+	background: radial-gradient(circle, rgba(254,232,172,1) 0%, rgba(255,203,59,1) 100%);
+}
+
+.lightbulbGreen {
+	background: rgb(189,246,173);
+	background: radial-gradient(circle, rgba(189,246,173,1) 0%, rgba(92,139,80,1) 100%);
+}
+
+.lightbulbBlue {
+	background: rgb(211,253,255);
+	background: radial-gradient(circle, rgba(211,253,255,1) 0%, rgba(110,197,200,1) 100%);
+}
+
+.lightbulbIndigo{
+	background: rgb(179,213,255);
+	background: radial-gradient(circle, rgba(179,213,255,1) 0%, rgba(89,139,201,1) 100%);
+}
+
+.lightbulbViolet {
+	background: rgb(227,197,254);
+	background: radial-gradient(circle, rgba(227,197,254,1) 0%, rgba(129,103,153,1) 100%);
+}
+
+.lightbulbPink {
+	background: rgb(252,203,218);
+	background: radial-gradient(circle, rgba(252,203,218,1) 0%, rgba(227,125,155,1) 100%);
+}
+
+.lightbulb:hover {
+	opacity: 50%;
+}
+
+.lightbulb:nth-child(2n){
+	visibility: hidden;
+}
+
+@media (max-width: 780px) {
+	.lightbulb {
+		width: 25px;
+		height: 25px;
+		box-shadow: 1px 1px black;
+	}
+}
+
+

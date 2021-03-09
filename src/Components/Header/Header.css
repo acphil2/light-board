@@ -1,0 +1,56 @@
+.header {
+	font-size: 4em;
+	font-family: 'Montserrat', sans-serif;
+	color: pink;
+	margin: 0;
+   	background-image: linear-gradient(
+    	40deg,
+        #e65353 16.666%, 
+        #f2914b 16.666%, 
+        #f2914b 33.333%, 
+        #ffcb3b 33.333%, 
+        #ffcb3b 50%, 
+        #75AA67 50%, 
+        #75AA67 66.666%, 
+        #598bc9 66.666%, 
+        #598bc9 83.333%, 
+        #816799 83.333%);
+	background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	animation: rainbow-text-simple-animation 2s;
+    animation-delay: .25s;
+    animation-timing-function: ease-in-out;
+}
+
+.header:hover {
+    opacity: 85%;
+}
+
+@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 200%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 780px) {
+    .header {
+        font-size: 2.5em;     
+    }
+}
+
+@media (max-width: 490px) {
+    .header {
+        font-size: 1.5em;
+    }
+}
+
+
+
