@@ -5,6 +5,8 @@
 	box-shadow: 2px 1px 1px black;
 	border: 1px solid #1c1c1c;
 	margin: 0;
+	background: rgb(48,48,48);
+	background: radial-gradient(circle, rgba(48,48,48,1) 0%, rgba(36,36,36,1) 100%);
 }
 
 .lightbulbDefault {

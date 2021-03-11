@@ -2,23 +2,24 @@ import React, { Component } from 'react';
 import './Lightbulb.css';
 
 class Lightbulb extends Component{
-	constructor(){
-        super();
+	constructor(props){
+        super(props);
         this.state = {
-            isClicked: false
+            isClicked: false,
         };
     }
 
     lightSwitch(){
-        let condition = this.state.isClicked;
+        let condition = this.state.isClicked; 
         this.setState({isClicked: !condition});
     }
   
 	render(){
 		return (
 		    <div onClick={this.lightSwitch.bind(this)} 
-		    	className={`lightbulb ${this.state.isClicked? 'lightbulbPink' : 'lightbulbDefault'}`}
-		    >
+                {...this.props}
+		        className={`lightbulb ${this.state.isClicked ? this.props.lightbulbcolor : 'lightbulbDefault'}`}
+              >
 		   	</div>
   		);
   	}
