@@ -14,42 +14,42 @@
 	background: radial-gradient(circle, rgba(48,48,48,1) 0%, rgba(36,36,36,1) 100%);
 }
 
-.lightbulbRed {
+.lightbulbred {
 	background: rgb(255,178,178);
 	background: radial-gradient(circle, rgba(255,178,178,1) 0%, rgba(221,61,61,1) 100%);
 }
 
-.lightbulbOrange {
+.lightbulborange {
 	background: rgb(255,192,147);
 	background: radial-gradient(circle, rgba(255,192,147,1) 0%, rgba(244,132,52,1) 100%);
 }
 
-.lightbulbYellow {
+.lightbulbyellow {
 	background: rgb(254,232,172);
 	background: radial-gradient(circle, rgba(254,232,172,1) 0%, rgba(255,203,59,1) 100%);
 }
 
-.lightbulbGreen {
+.lightbulbgreen {
 	background: rgb(189,246,173);
 	background: radial-gradient(circle, rgba(189,246,173,1) 0%, rgba(92,139,80,1) 100%);
 }
 
-.lightbulbBlue {
+.lightbulbblue {
 	background: rgb(211,253,255);
 	background: radial-gradient(circle, rgba(211,253,255,1) 0%, rgba(110,197,200,1) 100%);
 }
 
-.lightbulbIndigo{
+.lightbulbindigo{
 	background: rgb(179,213,255);
 	background: radial-gradient(circle, rgba(179,213,255,1) 0%, rgba(89,139,201,1) 100%);
 }
 
-.lightbulbViolet {
+.lightbulbviolet {
 	background: rgb(227,197,254);
 	background: radial-gradient(circle, rgba(227,197,254,1) 0%, rgba(129,103,153,1) 100%);
 }
 
-.lightbulbPink {
+.lightbulbpink {
 	background: rgb(252,203,218);
 	background: radial-gradient(circle, rgba(252,203,218,1) 0%, rgba(227,125,155,1) 100%);
 }
