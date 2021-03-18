@@ -1,10 +1,9 @@
 import React from 'react';
 import './Header.css';
 
-const Header = (props) => {
+const Header = () => {
   return (
     <div className='header'>
-    {props.state}
     	<h1>LITE-BRITE</h1>
     </div>
   );

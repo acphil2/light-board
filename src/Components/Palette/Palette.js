@@ -3,8 +3,8 @@ import './Palette.css';
 
 const Palette = (props) => {
     return (
-        <div className='palette' {...props}>
-        	{props.children}
+        <div className='palette' onClick={props.onClick}>
+            {props.children}
         </div>
     );
 };

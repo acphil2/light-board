@@ -1,28 +1,22 @@
-import React, { Component } from 'react';
+import React, { useState } from "react";
 import './Lightbulb.css';
 
-class Lightbulb extends Component{
-  constructor(props) {
-    super(props);
-    this.state = {
-      isClicked: false
-    }
-  }
+const Lightbulb = (props) => {
 
-  lightSwitch = () => {
-      let condition = this.state.isClicked; 
-      this.setState({isClicked: !condition});
-    }
+	const [isActive, setActive] = useState('false');
   
-	render() {
-		return (
-		    <div onClick={this.lightSwitch} 
-                {...this.props}
-		        className={`lightbulb ${this.state.isClicked ? this.props.lightbulbcolor : 'lightbulbDefault'}`}
-              >
-		   	</div>
-  		);
-  	}
+  const handleToggle = () => {
+	   setActive(!isActive);
+     console.log(props.color)
+	};
+
+  return (
+    <div 
+      className={`lightbulb ${isActive ? null : 'lightbulbRed'}`}
+      onClick={handleToggle}
+    ></div>
+  );  
 }
 
 export default Lightbulb;
+
