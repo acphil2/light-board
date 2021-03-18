@@ -1,6 +1,5 @@
 import React from 'react';
 import Lightbulb from '../Lightbulb/Lightbulb';
-import { v4 as uuidv4 } from 'uuid';
 import './Grid.css';
 
 const Grid = (props) => {
@@ -8,10 +7,10 @@ const Grid = (props) => {
 
   	return (
     <div className='grid'> 
-    	{data.map(((item) => (
+    	{data.map(((item, index) => (
             <Lightbulb 
-            	key= {uuidv4()}
-              color={props.color} 
+              color={props.color}
+              key={index}
           	/>
         )))}
     </div>

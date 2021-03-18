@@ -19,8 +19,8 @@ const App = () => {
 	       	<Header />
 	       	<Grid color={state}/>
 	        <Palette >
-		        <ColorChoices style={{backgroundColor: '#e65353', boxShadow: '4px 2px 1px #B84242'}}  onClick={handleClick}/>
-				<ColorChoices style={{backgroundColor: '#f2914b', boxShadow: '4px 2px 1px #C2743C'}}/>
+		        <ColorChoices style={{backgroundColor: '#e65353', boxShadow: '4px 2px 1px #B84242'}}/>
+				<ColorChoices style={{backgroundColor: '#f2914b', boxShadow: '4px 2px 1px #C2743C'}} onClick={handleClick}/>
 				<ColorChoices style={{backgroundColor: '#ffcb3b', boxShadow: '4px 2px 1px #CCA22F'}}/>
 		    	<ColorChoices style={{backgroundColor: '#75AA67', boxShadow: '4px 2px 1px #567d4c'}}/>
 			    <ColorChoices style={{backgroundColor: '#80d3d6', boxShadow: '4px 2px 1px #689bab'}}/>
