@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from './Components/Header/Header';
 import Grid from './Components/Grid/Grid';
 import Palette from './Components/Palette/Palette';
@@ -7,16 +7,17 @@ import './App.css';
 
 //Lite-Brite App
 const App = () => {
-	/*const [state, setState] = useState( 'red' );*/
+	const [state, setState] = useState( 'red' );
 	function handleClick(e) {
 		e.preventDefault();
-    	console.log('handleClick');
+		setState('orange');
+		console.log('clicks');
     }
 
 	return(
 	    <div className="App" >
 	       	<Header />
-	       	<Grid />
+	       	<Grid color={state}/>
 	        <Palette >
 		        <ColorChoices style={{backgroundColor: '#e65353', boxShadow: '4px 2px 1px #B84242'}}  onClick={handleClick}/>
 				<ColorChoices style={{backgroundColor: '#f2914b', boxShadow: '4px 2px 1px #C2743C'}}/>
@@ -32,5 +33,3 @@ const App = () => {
 }
 
 export default App;
-
-/*color={state}*/
