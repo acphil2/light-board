@@ -32,6 +32,7 @@ const Lightbulb = (props) => {
       setClassColor('lightbulbpink');
     }
     setActive(!isActive);
+    console.log(props.color);
 
   };
 
