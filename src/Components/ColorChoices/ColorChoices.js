@@ -9,4 +9,3 @@ const ColorChoices = (props) => {
 };
 
 export default ColorChoices;
-

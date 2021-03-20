@@ -7,7 +7,8 @@ import './App.css';
 
 //Lite-Brite App
 const App = () => {
-	const [state, setState] = useState( 'red' );
+	
+	const [state, setState] = useState( 'pink' );
 	function handleClick(e) {
 		e.preventDefault();
 		setState('orange');
