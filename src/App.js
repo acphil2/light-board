@@ -13,49 +13,41 @@ const App = () => {
 	function handleClickRed(e) {
 		e.preventDefault();
 		setState('red');
-		console.log('red');
     }
 
     function handleClickOrange(e) {
 		e.preventDefault();
 		setState('orange');
-		console.log('orange');
     }
 
     function handleClickYellow(e) {
 		e.preventDefault();
 		setState('yellow');
-		console.log('yellow');
     }
 
     function handleClickGreen(e) {
 		e.preventDefault();
 		setState('green');
-		console.log('green');
     }
 
     function handleClickBlue(e) {
 		e.preventDefault();
 		setState('blue');
-		console.log('blue');
     }
 
     function handleClickIndigo(e) {
 		e.preventDefault();
 		setState('indigo');
-		console.log('indigo');
     }
 
 	function handleClickViolet(e) {
 		e.preventDefault();
 		setState('violet');
-		console.log('violet');
     }
 
     function handleClickPink(e) {
 		e.preventDefault();
 		setState('pink');
-		console.log('pink');
     }
 
 	return(
