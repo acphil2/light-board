@@ -3,7 +3,7 @@ import Lightbulb from '../Lightbulb/Lightbulb';
 import './Grid.css';
 
 const Grid = (props) => {
-	const data = new Array(426).fill().map((index) => ({ id: index}));
+	const data = new Array(650).fill().map((index) => ({ id: index}));
 
   	return (
     <div className='grid'> 

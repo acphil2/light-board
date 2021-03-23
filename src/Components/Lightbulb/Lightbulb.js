@@ -37,8 +37,8 @@ const Lightbulb = (props) => {
   return (
     <div 
       className={`lightbulb ${ isActive ? null : classColor }`}
-      onClick={handleToggle}
-    ></div>
+      onClick={handleToggle}>
+    </div>
   );  
 }
 

@@ -6,8 +6,8 @@
 	justify-content: center;
 	align-items: center;
 	margin: 0;
-	padding: 2px;
-	padding-top: 4px;
+	padding: 4px;
+	padding-top: 14px;
 	border-top: 4px solid #1c1c1c;
 	border-left: 4px solid #1c1c1c;
 	border-right: 4px solid #1c1c1c;
@@ -17,6 +17,7 @@
 	background: rgb(68,68,68);
 	background: radial-gradient(circle, rgba(68,68,68,1) 0%, rgba(27,27,27,1) 100%);
 	box-shadow: 2px 0px 4px black;
+
 }
 
 @media (max-width: 780px) {
