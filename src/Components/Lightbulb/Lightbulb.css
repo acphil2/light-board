@@ -55,7 +55,7 @@
 }
 
 .lightbulb:hover {
-	opacity: 50%;
+	opacity: .5;
 }
 
 .lightbulb:nth-child(2n){
