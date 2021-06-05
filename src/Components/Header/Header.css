@@ -18,8 +18,8 @@
         #816799 83.333%);
 	background-size: 100%;
     background-repeat: none;
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important; 
     -ms-background-clip: text;
     -ms-text-fill-color: transparent; 
     background-clip: text;
