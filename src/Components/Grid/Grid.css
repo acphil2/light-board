@@ -16,7 +16,7 @@
 	overflow: hidden;
 	background: rgb(68,68,68);
 	background: radial-gradient(circle, rgba(68,68,68,1) 0%, rgba(27,27,27,1) 100%);
-	box-shadow: 2px 0px 4px black;
+	overflow: hidden;
 
 }
 
@@ -37,9 +37,12 @@
 
 @media (max-width: 400px) {
 	.grid {
-		width: 350px;
+		width: 341px;
 		height: 283px;
 		box-shadow: none;
 		padding: none;
+		border-top: 4px solid #1c1c1c;
+		border-left: 1px solid #1c1c1c;
+		border-right: 1px solid #1c1c1c;
 	}
 }

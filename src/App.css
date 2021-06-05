@@ -1,12 +1,11 @@
 body {
 	height: 100%;
 	width: 100%;
-	min-width: 100%;
+	min-width: 100vw;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	overflow: scroll;
 }
 
 .App {
@@ -18,6 +17,8 @@ body {
 	justify-content: center;
 	font-family: 'Montserrat-Black';
 	overflow: scroll;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 @font-face {
