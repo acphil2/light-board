@@ -71,6 +71,9 @@
 	    margin-bottom: 1px;
 		box-shadow: 1px 1px black;
 	}
+	.lightbulb:hover {
+    	opacity: 1;
+	}
 	.lightbulb:nth-child(2n){
 		height: 1px;
 	}
