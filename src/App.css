@@ -16,9 +16,14 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-family: 'Montserrat-Black';
-	overflow: scroll;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
+}
+
+.App::-webkit-scrollbar {
+	display: none;
 }
 
 @font-face {
