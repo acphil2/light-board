@@ -15,21 +15,9 @@
 
 @media (max-width: 780px) {
 	.palette {
-		width: 510px;
-	}
-}
-
-@media (max-width: 490px) {
-	.palette {
-		width: 400px;
-	}
-}
-
-@media (max-width: 400px) {
-	.palette {
-		width: 341px;
+		width: 340px;
 		box-shadow: none;
-		padding: none;
+		padding:  4px 2px 6px 2px;
 		border-top: 4px solid #1c1c1c;
 		border-left: 1px solid #1c1c1c;
 		border-right: 1px solid #1c1c1c;

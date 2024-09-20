@@ -4,7 +4,6 @@
     height: 60px;
     border-radius: 50%;
     background-color: gray;
-    margin: 4px;
 }
 
 .color-choice:hover {
@@ -53,29 +52,8 @@
 
 @media (max-width: 780px) {
     .color-choice {
-        width: 45px;
-        height: 45px;
-    }
-    .color-choice:hover {
-        opacity: 1;
-    }
-}
-
-@media (max-width: 490px) {
-    .color-choice {
-        width: 30px;
-        height: 30px;
-        margin: 1px;
-    }
-    .color-choice:hover {
-        opacity: 1;
-    }  
-}
-
-@media (max-width: 400px) {
-    .color-choice {
-       width: 24px;
-       height: 24px;
+       width: 32px;
+       height: 32px;
     }
     .color-choice:hover {
         opacity: 1;

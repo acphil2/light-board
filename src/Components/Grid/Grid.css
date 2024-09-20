@@ -1,16 +1,15 @@
 .grid {
 	width: 780px;
-	height: 528px;
+	height: 640px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	margin: 0;
-	padding: 4px;
-	padding-top: 14px;
-	border-top: 4px solid #1c1c1c;
-	border-left: 4px solid #1c1c1c;
-	border-right: 4px solid #1c1c1c;
+	padding: 6px 0 6px 0;
+	border-top: 8px solid #1c1c1c;
+	border-left: 8px solid #1c1c1c;
+	border-right: 8px solid #1c1c1c;
 	border-bottom: 0px solid #1c1c1c;
 	border-radius: 10px 10px 0px 0px;
 	overflow: hidden;
@@ -22,27 +21,12 @@
 
 @media (max-width: 780px) {
 	.grid {
-		width: 510px;
-		height: 358px;
-		padding-top: 3%;
-	}
-}
-
-@media (max-width: 490px) {
-	.grid {
-		width: 400px;
-		height: 285px;
-	}
-}
-
-@media (max-width: 400px) {
-	.grid {
-		width: 341px;
-		height: 283px;
+		width: 340px;
+		height: 306px;
 		box-shadow: none;
-		padding: none;
-		border-top: 4px solid #1c1c1c;
-		border-left: 1px solid #1c1c1c;
-		border-right: 1px solid #1c1c1c;
+		padding: 5px 2px;
+		border-top: 2px solid #1c1c1c;
+		border-left: 2px solid #1c1c1c;
+		border-right: 2px solid #1c1c1c;
 	}
 }

@@ -9,6 +9,12 @@
 	background: radial-gradient(circle, rgba(48,48,48,1) 0%, rgba(36,36,36,1) 100%);
 }
 
+@media (min-width: 781px) {
+	.lightbulb:nth-child(-n+25) {
+		margin-top: 0;
+	}
+}
+
 .lightbulbDefault {
 	background: rgb(48,48,48);
 	background: radial-gradient(circle, rgba(48,48,48,1) 0%, rgba(36,36,36,1) 100%);
@@ -65,10 +71,10 @@
 
 @media (max-width: 780px) {
 	.lightbulb {
-		width: 25px;
-		height: 25px;
-	    margin-top: -12.5px;
-	    margin-bottom: 1px;
+		width: 22px;
+		height: 22px;
+	    margin-top: -4px;
+	    margin-bottom: -6px;
 		box-shadow: 1px 1px black;
 	}
 	.lightbulb:hover {
@@ -76,5 +82,11 @@
 	}
 	.lightbulb:nth-child(2n){
 		height: 1px;
+	}
+}
+
+@media (max-width: 780px) {
+	.lightbulb:nth-child(n+360) {
+		visibility: hidden;
 	}
 }
