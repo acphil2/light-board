@@ -1,9 +1,16 @@
 {
-  "main.css": "static/css/main.66789cad.css",
-  "main.css.map": "static/css/main.66789cad.css.map",
-  "main.js": "static/js/main.a8914c08.js",
-  "main.js.map": "static/js/main.a8914c08.js.map",
-  "static/js/0.5006a8aa.chunk.js": "static/js/0.5006a8aa.chunk.js",
-  "static/js/0.5006a8aa.chunk.js.map": "static/js/0.5006a8aa.chunk.js.map",
-  "static/media/Montserrat-Black.ttf": "static/media/Montserrat-Black.27e3649b.ttf"
+  "files": {
+    "main.css": "/light-board/static/css/main.c87c38aa.css",
+    "main.js": "/light-board/static/js/main.baa4d8dc.js",
+    "static/js/453.85d67e80.chunk.js": "/light-board/static/js/453.85d67e80.chunk.js",
+    "static/media/Montserrat-Black.ttf": "/light-board/static/media/Montserrat-Black.46e8b3d6aad654578958.ttf",
+    "index.html": "/light-board/index.html",
+    "main.c87c38aa.css.map": "/light-board/static/css/main.c87c38aa.css.map",
+    "main.baa4d8dc.js.map": "/light-board/static/js/main.baa4d8dc.js.map",
+    "453.85d67e80.chunk.js.map": "/light-board/static/js/453.85d67e80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c87c38aa.css",
+    "static/js/main.baa4d8dc.js"
+  ]
 }
